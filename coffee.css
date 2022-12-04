@@ -1,0 +1,350 @@
+/*Home section*/
+
+.coffimage {
+    background-image: url("https://www.worldatlas.com/r/w1200/upload/12/f8/83/coffee-cup.jpg");
+    content: justify;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    height: 100vh;
+    width: 100%;
+}
+
+.cofflogo {
+    height: 80px;
+    width: 100px;
+    padding-left: 20px;
+}
+
+#go {
+    color: white;
+    padding-left: 50px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: larger;
+}
+
+#go:hover {
+    color: chocolate;
+
+}
+
+.heading1 {
+    color: white;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    font-size: 100px;
+    font-weight: 100;
+    padding-left: 50px;
+    padding-top: 100px;
+    cursor: pointer;
+}
+
+.heading1:hover {
+    -webkit-text-stroke: 2px white;
+    color: transparent;
+}
+
+.coffpara {
+
+    color: rgb(247, 159, 96);
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: bold;
+    font-style: oblique;
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.cbn {
+    padding-left: 50px;
+    padding-top: 30px;
+}
+
+.coffpara1 {
+    color: rgb(239, 233, 233);
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: larger;
+    font-weight: bold;
+    font-style: oblique;
+    padding-left: 50px;
+    padding-top: 10px;
+}
+
+
+/*About Us Section*/
+.backcol1 {
+    background-color: rgb(50, 25, 8);
+    height: 100%;
+    width: 100%;
+}
+
+.heading2 {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: 100;
+    text-align: center;
+    padding-top: 50px;
+    text-transform: uppercase;
+}
+
+.heading2 span {
+    color: coral;
+    text-transform: uppercase;
+}
+
+.heading3 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 40px;
+    font-weight: bold;
+    padding-top: 20px;
+}
+
+.para1 {
+    color: whitesmoke;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: light;
+    padding-top: 10px;
+}
+
+.coffimg1 {
+    height: 320px;
+    width: 370px;
+}
+
+.coffimg1:hover {
+    height: 350px;
+    width: 380px;
+}
+
+.container {
+    flex: 1 1 45rem;
+    padding: 2rem;
+    padding-top: 40px;
+}
+
+
+/*contact section*/
+
+.heading {
+    color: white;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 80px;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+#contact {
+    padding-bottom: 4rem;
+    padding: 1rem;
+    /*1rem=16px*/
+    background-color: grey;
+    background-size: contain;
+}
+
+
+.socialicons {
+    font-size: 40px;
+    cursor: pointer;
+}
+
+#icenter1 {
+    text-align: center;
+}
+
+.fa-brands {
+    color: white;
+}
+
+.fa-brands:hover {
+    color: red;
+}
+
+.fa-facebook,
+.fa-instagram,
+.fa-twitter {
+    margin: 60px;
+}
+
+/*Menu section*/
+#menu {
+    background-color: rgb(50, 25, 8);
+    background-size: contain;
+    height: 100%;
+}
+
+.heading4 {
+    text-align: center;
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 100px;
+    font-weight: 100;
+    text-transform: uppercase;
+    padding-top: 50px;
+}
+
+.heading4 span {
+    color: chocolate;
+    text-transform: uppercase;
+}
+
+.card1 {
+    text-align: center;
+    background-color: white;
+    border-style: solid;
+    border-width: 1px;
+    border-color: rgb(233, 141, 74);
+    border-radius: 20px;
+    padding-bottom: 10px;
+}
+
+.card1:hover {
+    background-color: rgb(58, 46, 37);
+    height: 370px;
+    width: 270px;
+    border-color: grey;
+}
+
+.cardimage {
+    height: 150px;
+    width: 150px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 30px;
+    margin: 10px;
+}
+
+.cardimage:hover {
+    height: 170px;
+    width: 170px;
+}
+
+.head1 {
+    color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.cardpara {
+    color: chocolate;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: larger;
+    font-weight: lighter;
+    font-style: italic;
+}
+
+.head2 {
+    color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+    font-size: 30px;
+}
+
+@media (max-width: 578px) {
+    .navbar .go {
+        z-index: 7;
+    }
+}
+
+/*Recipe section*/
+
+
+.coffrecipe {
+    background-color: rgb(67, 39, 18);
+    width: 100%;
+    height: 100%;
+}
+
+
+.coffhead {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 70px;
+    font-weight: 100;
+    padding-top: 50px;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.coffhead span {
+    color: chocolate;
+}
+
+.recived {
+    float: left;
+    height: 400px;
+    width: 600px;
+    margin-right: 40px;
+    padding-top: 40px;
+    padding-left: 20px;
+
+}
+
+.recipehead {
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 60px;
+    font-weight: 100;
+    font-style: oblique;
+    text-transform: uppercase;
+    padding-left: 20px;
+}
+
+.headrec1 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 50px;
+    font-weight: bold;
+    padding-top: 50px;
+}
+
+.headrec2 {
+    color: white;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 20px;
+    padding-left: 20px;
+}
+
+.rec {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: larger;
+}
+
+.recpara {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: white;
+    font-size: larger;
+    padding-left: 20px;
+}
+
+.box vedio {
+    max-width: 100px;
+    height: 100px;
+    display: block;
+    object-fit: cover;
+
+}
+
+.coff {
+    padding-top: 20px;
+}
+
+@media (max-width: 578px) {
+    .navbar .go {
+        z-index: 9;
+    }
+
+    .recived {
+        width: 400px;
+        height: 300px;
+    }
+}
