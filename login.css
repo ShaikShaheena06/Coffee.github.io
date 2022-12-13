@@ -1,0 +1,108 @@
+body {
+    width: 100%;
+    height: 100vh;
+    background: url("https://img.freepik.com/free-photo/cup-coffee-with-pile-coffee-beans_1112-438.jpg?");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    display: flex;
+    position: relative;
+
+
+}
+
+.container form {
+    max-width: 500px;
+    padding: 50px 30px 20px;
+    background: #fff;
+    border-radius: 4px;
+    box-shadow: 0 4px 30px rgba(0, 0, 0, 0.5);
+    margin-top: 18%;
+    margin-left: 30%;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+}
+
+.heading {
+    color: chocolate;
+    font-family: 'Times New Roman', Times, serif;
+    font-size: 50px;
+    font-weight: 500;
+    padding-bottom: 20px;
+    padding-left: 30%;
+}
+
+.forms {
+    width: 100%;
+    display: flex;
+    align-items: center;
+    margin: 10px 0;
+    position: relative;
+    padding-left: 30px;
+}
+
+.forms label {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+    font-weight: 100;
+    flex-basis: 27%;
+}
+
+.forms input {
+    flex-basis: 50%;
+    background: transparent;
+    border: 0;
+    outline: 0;
+    padding: 10px 0;
+    border-bottom: 1px solid#999;
+    color: #333;
+    font-size: 16px;
+}
+
+.forms span {
+    position: bottom;
+    bottom: 12px;
+    right: 17px;
+    font-size: 14px;
+    color: red;
+    align-content: space-between;
+}
+
+#click {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: larger;
+}
+
+.para {
+    font-family: 'Times New Roman', Times, serif;
+    font-size: large;
+    padding-left: 20px;
+}
+
+.link {
+    color: rgb(34, 10, 166);
+}
+
+@media (max-width:768px) {
+
+    html,
+    body {
+        width: 100%;
+        overflow-x: hidden;
+    }
+
+    .container form,
+    .forms,
+    .forms label,
+    .forms input,
+    .forms span {
+        max-width: 500px;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .forms label {
+        flex-basis: 20px;
+    }
+}

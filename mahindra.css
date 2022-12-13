@@ -1,0 +1,52 @@
+.navbar {
+    background-color: #7952b3;
+}
+
+.Carr {
+    height: 60px;
+    width: 80px;
+}
+
+.nav-link {
+    color: #ffe484;
+    padding: 5px 15px;
+    border-radius: 5px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    border: 0px;
+}
+
+.nav-link:hover {
+    background-color: white;
+    color: black;
+}
+
+.all {
+    background-image: linear-gradient(rgb(199, 234, 246), rgb(192, 231, 231));
+}
+
+.layout {
+    background-color: lightskyblue;
+    border-radius: 10px;
+    padding: 30px;
+    margin: 30px;
+    float: center;
+    border: 10px;
+}
+
+.para {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: chocolate;
+}
+
+.images {
+    width: 400px;
+    height: 200px;
+    padding-left: 40px;
+}
+
+.images:hover {
+    background-color: whitesmoke;
+    height: 250px;
+}
